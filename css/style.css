@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+body{
+    background-color: hsl(30, 54%, 90%);
+    font-size: 16px;
+    font: serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.omelette {
+    width: 90%;
+}
+.omelette > img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+.card {
+    background-color: white;
+    width: 50%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+}
+.prep{
+    background-color: hsl(330, 100%, 98%);
+    padding: 5px;
+}
+
+.prep > h3{
+    color: hsl(332, 51%, 32%);
+}
+.aspect > h2{
+    color: hsl(14, 45%, 36%);
+}
+ol li::marker {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+.value{
+    color: hsl(14, 45%, 36%);
+}
+.first {
+    display: inline-block;
+    width: 49%;
+    font-family: 'Outfit';
+    font-weight: 180;
+    font-size: 16px;
+    font-style: normal;
+}
+.value {
+    display: inline-block;
+    width: 40%;
+}
+
+h1, h2, h3{
+    font-family: 'Young Serif';
+    font-weight: 400;
+}
+p,li{
+    font-family: 'Outfit';
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+}
+
+.value{
+    font-family: 'Outfit';
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+}
+
+@media screen and (min-width: 375px) {
+    
+}
